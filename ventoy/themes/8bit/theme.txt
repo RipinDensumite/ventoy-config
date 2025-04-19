@@ -1,0 +1,119 @@
+title-text: ""
+title-font: "default"
+title-color: "#00FF00"
+desktop-color: "#000000"
+terminal-font: "default"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "98%"
+terminal-height: "98%"
+terminal-border: "0"
+
+# ASCII Art Banner - Reaper inspired
++ label {
+  left = 10%
+  top = 7%
+  width = 80%
+  align = "center"
+  text = "+-----------------------------------------+"
+  color = "#FF0000"
+  font = "default"
+}
++ label {
+  left = 10%
+  top = 9%
+  width = 80%
+  align = "center"
+  text = "|       ☠ R1P1N-ARM0RY SYSTEM INIT ☠      |"
+  color = "#FF0000"
+  font = "default"
+}
++ label {
+  left = 10%
+  top = 11%
+  width = 80%
+  align = "center"
+  text = "|         .-'      '-.     .---.          |"
+  color = "#FF0000"
+  font = "default"
+}
++ label {
+  left = 10%
+  top = 13%
+  width = 80%
+  align = "center"
+  text = "|      /            \\   / . . \\         |"
+  color = "#FF0000"
+  font = "default"
+}
++ label {
+  left = 10%
+  top = 15%
+  width = 80%
+  align = "center"
+  text = "|      |              |  \\  ---<         |"
+  color = "#FF0000"
+  font = "default"
+}
++ label {
+  left = 10%
+  top = 17%
+  width = 80%
+  align = "center"
+  text = "|      \\   ()     () /    \\_/           |"
+  color = "#FF0000"
+  font = "default"
+}
++ label {
+  left = 10%
+  top = 19%
+  width = 80%
+  align = "center"
+  text = "|         '-.______.-'     /              |"
+  color = "#FF0000"
+  font = "default"
+}
++ label {
+  left = 10%
+  top = 21%
+  width = 80%
+  align = "center"
+  text = "+-----------------------------------------+"
+  color = "#FF0000"
+  font = "default"
+}
+
+# Boot Menu
++ boot_menu {
+  left = 10%
+  top = 25%
+  width = 80%
+  height = 48%
+  item_font = "default"
+  item_color = "#00FF00"
+  selected_item_color = "#FFFFFF"
+  item_height = 20
+  item_spacing = 4
+  item_icon_space = 0
+}
+
+# Function Key Help
++ label {
+  left = 1%
+  top = 78%
+  width = 90%
+  align = "left"
+  text = "Enter: Boot | E: Edit | C: Command | F1: MemDisk | F2: Power | F3: Tree | F4: Local Boot"
+  color = "#FFFFFF"
+  font = "default"
+}
+
++ label {
+  left = 1%
+  top = 80%
+  width = 90%
+  align = "left"
+  text = "F5: Tools | F6: Custom | F7: Text/GUI | h: Help | m: Checksum"
+  color = "#FFFFFF"
+  font = "default"
+}

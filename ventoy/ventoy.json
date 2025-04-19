@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "file": [
+      "/ventoy/themes/8bit/theme.txt"
+    ],
+    "default_file": 1,
+    "gfxmode": "1024x768",
+    "display_mode": "GUI",
+    "ventoy_left": "15000",
+    "ventoy_top": "15000"
+  }
+}
