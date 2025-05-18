@@ -1,0 +1,11 @@
+{
+  "theme":{
+      "file": [
+          "/ventoy/themes/568flat-en/theme.txt"
+      ],
+      "fonts": [
+          "/ventoy/themes/568flat-en/SmileySans-Oblique_48.pf2",
+          "/ventoy/themes/568flat-en/SmileySans-Oblique_32.pf2"
+      ]
+  }
+}

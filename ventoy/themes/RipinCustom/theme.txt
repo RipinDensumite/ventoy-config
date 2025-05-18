@@ -1,0 +1,56 @@
+title-text: ""
+title-font: "default"
+title-color: "#00FF00"
+desktop-color: "#000000"
+terminal-font: "default"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "98%"
+terminal-height: "98%"
+terminal-border: "0"
+
+# Title
++ label {
+  left = 1%
+  top = 1%
+  width = 90%
+  align = "left"
+  text = ">>>>>||RipinUtilities||<<"
+  color = "#f0f0f0"
+  font = "default"
+}
+
+# Boot Menu
++ boot_menu {
+  left = 1%
+  top = 4%
+  width = 90%
+  height = 48%
+  item_font = "default"
+  item_color = "#f0f0f0"
+  selected_item_color = "#a3a2a2"
+  item_height = 20
+  item_spacing = 4
+  item_icon_space = 0
+}
+
+# Function Key Help
++ label {
+  left = 1%
+  top = 78%
+  width = 90%
+  align = "left"
+  text = "Enter: Boot | E: Edit | C: Command | F1: MemDisk | F2: Power | F3: Tree | F4: Local Boot"
+  color = "#FFFFFF"
+  font = "default"
+}
+
++ label {
+  left = 1%
+  top = 80%
+  width = 90%
+  align = "left"
+  text = "F5: Tools | F6: Custom | F7: Text/GUI | h: Help | m: Checksum"
+  color = "#FFFFFF"
+  font = "default"
+}
